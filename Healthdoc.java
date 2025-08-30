@@ -181,7 +181,7 @@ class Login{
 public class Healthdoc {
     private static final String url = "jdbc:mysql://localhost:3306/healthcheck";
     private static final String user = "root";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
     public static void main(String[] args) throws Exception{
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -221,5 +221,6 @@ public class Healthdoc {
 
 
     }
+
 
 
