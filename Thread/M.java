@@ -209,7 +209,7 @@ public class M {
             sc.nextLine();
             switch (option) {
                 case 1:
-                    doctor.start();
+                   new doctor().start();
                     break;
                 case 2:
                     doctor.patient(con, sc);
