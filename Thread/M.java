@@ -4,7 +4,7 @@ import java.util.Scanner;
 class doctor extends Thread{
     private static final String url = "jdbc:mysql://localhost:3306/healthcheck";
     private static final String user = "root";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
     @Override
     public void run() {
         try {
@@ -186,7 +186,7 @@ class doctor extends Thread{
 public class M {
     private static final String url = "jdbc:mysql://localhost:3306/healthcheck";
     private static final String user = "root";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
     public static void main(String[] args) throws SQLException, ClassNotFoundException, InterruptedException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
